@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html manifest="cache.appcache">
+<head>
+    <meta charset="UTF-8">
+    <title>Configuración</title>
+</head>
+<body>
+    <!-- Menú -->
+    <nav>
+        <ul>
+            <li><a href="index.html">Index</a></li>
+            <li><a href="juego.html">Juego</a></li>
+            <li><a href="ayuda.html">Ayuda</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+            <li><a href="configuracion.html">Configuración</a></li>
+        </ul>
+    </nav>
+    <!-- Fin
+    Menú -->
+    <main>
+    <h1>Configuración</h1>
+    <form method="post" action="configuracion.html">
+    <label>Nivel de dificultad</label><br>
+    <input type="radio" name="dificultad" value="principiante">Nivel Principiante<br>
+    <input type="radio" name="dificultad" value="medio">Nivel Medio<br>
+    <input type="radio" name="dificultad" value="avanzado">Nivel Avanzado<br>
+    <label>Idioma</label><br>
+    <input type="radio" name="idioma" value="espanol">Español<br>
+    <input type="radio" name="idioma" value="ingles">Inglés<br>
+    <input type="radio" name="idioma" value="aleman">Alemán<br>
+    <label>Contra quién quieres jugar?</label><br>
+    <input type="radio" name="vs" value="humano">Humano vs Máquina<br>
+    <input type="radio" name="vs" value="maquina">Máquina vs Humano<br>
+    <input type="submit" value="Send Email">
+    </form>
+    </main>
+    </body>
+</html>

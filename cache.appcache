@@ -1,0 +1,12 @@
+CACHE MANIFEST
+#DATE 28/10/2016
+CACHE:
+index.html
+ayuda.html
+juego.html
+contacto.html
+/img/buscaminas.png
+/img/luisherdeth.pngN# Usar desde la red si está disponible
+NETWORK:
+*N# Usar desde la red si está disponible
+FALLBACK:
